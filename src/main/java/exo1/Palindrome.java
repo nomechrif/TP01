@@ -1,4 +1,5 @@
-package org.example.TP;
+package exo1;
+
 public class Palindrome {
     public static boolean isPalindrome(String s) {
         if (s == null) {
@@ -11,8 +12,8 @@ public class Palindrome {
             if (s.charAt(i) != s.charAt(j)) {
                 return false;
             }
-            j++;
-            i--;
+            i++;
+            j--;
         }
         return true;
     }
